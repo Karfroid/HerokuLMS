@@ -1,0 +1,74 @@
+.coure-container {
+  margin: 0 auto;
+}
+.course-title h1 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 -12px;
+  vertical-align: top;
+}
+.course-grid-col {
+  width: 50%;
+  padding: 0 12px;
+  display: inline-block;
+  vertical-align: top;
+}
+.course-grid-row {
+  width: 100%;
+  padding: 0 12px;
+}
+.chapter-table {
+  width: 90%;
+  margin: 25px auto;
+}
+.chapter-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+}
+.chapter-title > div {
+  border-left: 1px solid #ccc;
+  padding: 10px 15px;
+  width: 33%;
+}
+.chapter-title > div:first-child {
+  border-left: 0px solid #ccc;
+}
+.chapter-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-top: 0;
+  align-items: center;
+}
+.chapter-row label {
+  display: none;
+}
+.chapter-row .form-group {
+  margin: 0;
+}
+.chapter-row > div {
+  border-left: 1px solid #ccc;
+  padding: 10px 15px;
+  width: 33%;
+}
+.chapter-row > div:first-child {
+  border-left: 0px solid #ccc;
+}
+form {
+  width: 100%;
+}
+.form-upload input {
+  border: 0;
+}
+
+.form-upload .form-group {
+  display: inline-block;
+  width: 70%;
+}

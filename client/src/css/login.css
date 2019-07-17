@@ -1,0 +1,21 @@
+.main-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 480px;
+  padding: 2%;
+  background: rgba(0, 0, 0, 0.75);
+}
+.main-login label {
+  color: #d6d6d6;
+  padding: 1% 0;
+}
+.main-login .form-group:nth-child(2) {
+  margin-bottom: 2rem;
+}
+.main-login .form-control {
+  color: #d6d6d6;
+  background-color: #495057;
+  border: 1px solid #495057;
+}
